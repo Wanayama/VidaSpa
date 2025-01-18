@@ -541,7 +541,7 @@ footer{
     }
   
     .about{
-      margin-top: -140%;
+      margin-top: -110%;
       width: 100%;
       height: 100vh;
       padding: 3% 7%;
@@ -596,7 +596,7 @@ footer{
 
     footer{
         padding: 20px 4% 20px 4%;
-        margin-top: -30%;
+        margin-top: -10%;
     }
 
     .location h2{
