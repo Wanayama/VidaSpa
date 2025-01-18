@@ -612,6 +612,9 @@ footer{
     .footer_content p{
         font-size: 10px;
     }
+  .footer_content{
+    position: relative;
+  }
     .logo2 {
         width: 80px;
         height: 70px;
