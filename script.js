@@ -19,8 +19,8 @@ function close(){
 ScrollReveal({
     reset: true,
     distance: '80px',
-    duration: 2000,
-    delay: 200
+    duration: 1000,
+    delay: 50,
 });
 ScrollReveal().reveal('.hero_content img, .content', {origin: 'top'});
 ScrollReveal().reveal('.left', {origin: 'left'});
