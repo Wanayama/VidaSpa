@@ -448,6 +448,7 @@ footer{
   }
 
   .content {
+    position: relative;
     margin-top: -10%;
   }
   .content h2 {
