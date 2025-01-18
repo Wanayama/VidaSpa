@@ -1,5 +1,5 @@
 //Menu Toggle
-const navMenu = document.querySelector('.nav_menu');
+const navMenu = document.querySelector('.nav_menu2');
 const closeMenu = document.querySelector('.closemenu');
 const hamburger = document.querySelector('.hamburger');
 
@@ -10,7 +10,7 @@ function show(){
     navMenu.style.top = "0";
 }
 function close(){
-    navMenu.style.top = '-100%';
+    navMenu.style.top = '-120%';
 }
 
 
