@@ -18,11 +18,7 @@ html {
 section {
   min-height: 100vh;
 }
-.container {
-  max-height: 1536px;
-  margin-left: auto;
-  margin-right: auto;
-}
+
 
 /* topbar section */
 .topbar {
@@ -382,6 +378,9 @@ footer{
 
 /* For mobile phones (width below 768px) */
 @media (max-width: 768px) {
+    body{
+        overflow-x: hidden;
+    }
   .topbar {
     display: none;
   }
@@ -543,7 +542,7 @@ footer{
     }
   
     .about{
-      margin-top: -140%;
+      margin-top: -110%;
       width: 100%;
       height: 100vh;
       padding: 3% 7%;
