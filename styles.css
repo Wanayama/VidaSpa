@@ -413,6 +413,11 @@ footer{
     font-size: 25px;
   }
 
+  .home {
+  width: 100%;
+  height: auto;
+}
+
 
   .hero_content img {
     height: 300px;
