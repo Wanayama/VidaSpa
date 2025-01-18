@@ -428,14 +428,7 @@ footer{
   .content p {
     font-size: 14px;
   }
-
-  .about{
-    margin-top: -35%;
-    width: 100%;
-    height: 100vh;
-    padding: 3% 7%;
-    background-color: aliceblue;
-  }
+  
   .left img{
     height: 300px;
     width: 100%;
@@ -470,7 +463,7 @@ footer{
 
 
   .about{
-      margin-top: -110%;
+      margin-top: 0;
       width: 100%;
       height: 100vh;
       padding: 3% 7%;
@@ -525,7 +518,7 @@ footer{
 
     footer{
         padding: 20px 4% 20px 4%;
-        margin-top: -10%;
+        margin-top: 0;
     }
 
     .location h2{
@@ -601,7 +594,7 @@ footer{
     }
   
     .about{
-      margin-top: -110%;
+      margin-top: 0;
       width: 100%;
       height: 100vh;
       padding: 3% 7%;
@@ -656,7 +649,7 @@ footer{
 
     footer{
         padding: 20px 4% 20px 4%;
-        margin-top: -10%;
+        margin-top: 0;
     }
 
     .location h2{
