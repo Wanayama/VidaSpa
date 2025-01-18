@@ -11,9 +11,10 @@
   text-decoration: none;
   font-family: "comfortaa";
 }
-html {
+html, body {
   font-size: 10px;
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 section {
   min-height: 100vh;
@@ -379,7 +380,7 @@ footer{
 /* For mobile phones (width below 768px) */
 @media (max-width: 768px) {
     body{
-        overflow-x: hidden;
+        position: relative;
     }
   .topbar {
     display: none;
