@@ -293,7 +293,7 @@ a {
 /* Footer section */
 footer{
     width: 100%;
-    height: 100px;
+    height: 150px;
     background: #0f0f0f;
     color: #f1efef;
     padding: 20px 10% 20px 10%;
@@ -542,7 +542,7 @@ footer{
     }
   
     .about{
-      margin-top: -110%;
+      margin-top: 0;
       width: 100%;
       height: 100vh;
       padding: 3% 7%;
