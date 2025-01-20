@@ -128,6 +128,7 @@ button{
   background: rgb(175, 155, 133);
   padding: 10px 15px 10px 15px;
   border-radius: 10px;
+  font-weight: bolder;
   cursor: pointer;
   transition: .6s ease;
 }
@@ -514,6 +515,7 @@ footer{
   .content button{
     display: block;
     margin-top: 5%;
+    font-weight: bolder;
   }
   button{
     display: none;
