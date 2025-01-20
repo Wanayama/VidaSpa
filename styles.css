@@ -15,6 +15,7 @@ html, body {
   font-size: 10px;
   scroll-behavior: smooth;
   overflow-x: hidden;
+  background: rgba(175, 155, 133, 0.089);
 }
 section {
   min-height: 100vh;
@@ -58,6 +59,11 @@ section {
   color: rgb(208, 227, 227);
   padding: 0 5px 0 5px;
   cursor: pointer;
+  transition: .6s ease-in-out;
+}
+
+.topright i:hover{
+  color: #0f0f0f;
 }
 
 /* header section */
@@ -295,6 +301,24 @@ a {
   cursor: pointer;
   padding-right: 20px;
   color: #0f0f0f;
+}
+
+/* Gallery section */
+.img-gallery{
+  width: 80%;
+  margin: 40px auto 50px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 30px;
+}
+.img-gallery img{
+  width: 100%;
+  cursor: pointer;
+  border-radius: 10px;
+  transition: .5s ease;
+}
+.img-gallery img:hover{
+  transform: scale(1.04);
 }
 
 /* Footer section */
@@ -603,9 +627,13 @@ footer{
       text-align: center;
     }
 
+    .gallery{
+      margin-top: -10%;
+    }
+
     footer{
         padding: 20px 4% 20px 4%;
-        margin-top: -30%;
+        margin-top: -10%;
     }
 
     .location h2{
