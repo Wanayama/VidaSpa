@@ -71,6 +71,9 @@ header {
   padding-top: 5%;
   padding-left: 10%;
   padding-right: 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .navbar {
@@ -121,6 +124,17 @@ a {
 .closemenu{
     display: none;
 }
+button{
+  background: rgb(175, 155, 133);
+  padding: 10px 15px 10px 15px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: .6s ease;
+}
+button:hover{
+  background: rgb(107, 91, 73);
+  color: whitesmoke;
+}
 
 /* Home section */
 .home {
@@ -148,6 +162,9 @@ a {
   line-height: 2%;
   font-size: 20px;
   color: white;
+}
+.content button{
+  display: none;
 }
 
 /* Our story section */
@@ -417,6 +434,11 @@ footer{
     display: none;
   }
 
+  header{
+    max-height: 120px;
+    margin-top: -5%;
+  }
+
   .nav_menu{
     display: none;
   }
@@ -464,7 +486,7 @@ footer{
 
   .hamburger {
     display: block;
-    margin-left: 70%;
+    margin-right: 120px;
     cursor: pointer;
     font-size: 25px;
   }
@@ -488,6 +510,13 @@ footer{
 
   .content p {
     font-size: 14px;
+  }
+  .content button{
+    display: block;
+    margin-top: 5%;
+  }
+  button{
+    display: none;
   }
 
   .about{
