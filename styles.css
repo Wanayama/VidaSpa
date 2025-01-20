@@ -92,12 +92,7 @@ header {
 .nav_menu2{
     display: none;
 }
-.nav_link {
-  transition: 1s ease;
-}
-.nav_link:hover {
-  color: bisque;
-}
+
 
 li {
   list-style: none;
@@ -121,9 +116,7 @@ a {
     font-size: 40px;
     font-weight: bolder;
 }
-.closemenu{
-    display: none;
-}
+
 button{
   background: rgb(175, 155, 133);
   padding: 10px 15px 10px 15px;
@@ -444,7 +437,7 @@ footer{
     display: none;
   }
 
-  .nav_menu2 {
+  .nav_menu2{
     height: 100vh;
     position: fixed;
     top: 0;
@@ -453,36 +446,19 @@ footer{
     width: 100%;
     z-index: 10;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    padding: 20% 0 0 40%;
     background: bisque;
     transition: top 1s ease;
   }
 
-  .nav_menu2{
-    justify-content: center;
-    align-items: center;
+  .nav_menu2.active{
+    display: block;
   }
 
   .nav_item2{
-    padding-bottom: 10%;
-    font-size: 50px;
-  }
-
-  .closemenu{
-    display: block;
-    position: absolute;
-    top: 5%;
-    padding-left: 60%;
-    cursor: pointer;
-  }
-  .closemenu span{
-    font-size: 40px;
-    font-weight: 700;
-  }
-
-  .nav_link2:hover {
-    color: rgb(255, 255, 255);
+    font-size: 80px;
+    font-weight: bolder;
+    margin-bottom: 10%;
   }
 
   .hamburger {

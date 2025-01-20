@@ -3,14 +3,32 @@ const navMenu = document.querySelector('.nav_menu2');
 const closeMenu = document.querySelector('.closemenu');
 const hamburger = document.querySelector('.hamburger');
 
-hamburger.addEventListener('click', show);
-closeMenu.addEventListener('click', close);
-function show(){
-    navMenu.style.display = 'flex';
-    navMenu.style.top = "0";
+hamburger.onclick = () => {
+    // menuIcon.classList.toggle('bx-x');
+    navMenu.classList.toggle('active');
 }
-function close(){
-    navMenu.style.top = '-120%';
+
+// scroll sections active link
+let sections = document.querySelectorAll('section');
+let navLinks = document.querySelectorAll('header ul li a');
+
+window.onscroll = () => {
+    sections.forEach(sec => {
+        let top = window.scrollY;
+        let offset = sec.offsetTop - 150;
+        let height = sec.offsetHeight;
+        let id = sec.getAttribute('id');
+
+        if(top >= offset && top < offset + height){
+            navLinks.forEach(links =>{
+                links.classList.remove('active');
+                document.querySelector('header ul li a[href*=' + id + ']').classList.add('active')
+            })
+        }
+    })
+
+    // remove toggle icon and navbar when click navbar link (scroll)
+    navMenu.classList.remove('active');
 }
 
 
@@ -26,3 +44,4 @@ ScrollReveal().reveal('.hero_content img, .content', {origin: 'top'});
 ScrollReveal().reveal('.left', {origin: 'left'});
 ScrollReveal().reveal('.right', {origin: 'right'});
 ScrollReveal().reveal('.head, .details, .cards', {origin: 'bottom'});
+
