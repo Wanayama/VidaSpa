@@ -618,6 +618,10 @@ footer{
       flex-direction: column;
       padding: 10px;
     }
+
+    .card_container{
+      gap: 5px;
+    }
   
     .details {
       flex-direction: column;
