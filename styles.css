@@ -1,4 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
 
 * {
   margin: 0;
@@ -9,7 +10,7 @@
   list-style: none;
   scroll-behavior: smooth;
   text-decoration: none;
-  font-family: "comfortaa";
+  font-family: "open sans";
 }
 html, body {
   font-size: 10px;
@@ -214,7 +215,7 @@ button:hover{
 
 /* services section */
 .services {
-  background-color: rgba(229, 229, 226, 0.416);
+  background-color: rgba(223, 223, 167, 0.416);
 }
 .card_container {
   display: flex;
