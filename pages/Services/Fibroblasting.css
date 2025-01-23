@@ -161,46 +161,59 @@ button:hover{
   color: whitesmoke;
 }
 
-/* Facials section */
-.facials_details{
-    padding: 100px 10% 30px 10%;
-    gap: 2rem;
+/* Fibroblast section */
+.fibro_container{
+    margin-top: 10%;
+    padding: 0 10% 3% 10%;
+    background-color: #ffffff;
 }
-
-.facial_card{
+.fibro-desc{
     display: flex;
-    flex-wrap: wrap;
-    background: rgba(128, 128, 128, 0.297);
-    min-height: 300px;
-    border-radius: 5px;
-    padding: 10px 5% 10px 5%;
-    margin-bottom: 4rem;
 }
-.facial_card img{
-    width: 300px;
-    height: 300px;
-    border-radius: 5px;
-}
-.card-desc{
-  padding-left: 5%;
-}
-.descR h2{
-  font-size: 25px;
-  padding: 0 0 5px 0;
-  color: rgb(110, 107, 107);
-  font-family: 'Times New Roman', Times, serif;
-}
-.descR p{
-  line-height: 1.5;
-  font-size: 12px;
-  margin-bottom: 5%;
+.descL h2{
+    font-size: 25px;
+    font-weight: 700;
+    color: #868383;
+    margin-bottom: 3%;
 }
 .descL p{
-  font-size: 12px;
-  font-weight: 600;
-  margin-bottom: 2%;
+    line-height: 1.5;
+    font-size: 12px;
+    font-family: 'comfortaa';
 }
-
+.descR{
+    padding-left: 5%;
+    width: 50%;
+}
+.descR img{
+    height: 300px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.descR h3{
+    color: #868383;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 2%;
+}
+.descR p{
+    font-size: 16px;
+    font-weight: 300;
+}
+.descR p span{
+    font-weight: 500;
+    margin-right: 60%;
+}
+.comp-img{
+    max-height: 420px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.comp-img img{
+    width: 450px;
+    height: 400px;
+}
   
   /* Footer section */
   footer{
@@ -325,7 +338,29 @@ button:hover{
     button{
       display: none;
     }
-  
+    .fibro-desc{
+        display: flex;
+        flex-direction: column;
+    }
+    .descR{
+        width: 100%;
+    }
+    .descL{
+        max-height: fit-content;
+        margin-top: 15%;
+        margin-bottom: 10%;
+    }
+    .descL h2{
+        font-size: 25px;
+        font-weight: 700;
+        color: #868383;
+        margin-bottom: 3%;
+    }
+    .descL p{
+        line-height: 1.5;
+        font-size: 12px;
+        font-family: 'comfortaa';
+    }
 
  
     

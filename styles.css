@@ -459,7 +459,7 @@ footer{
   }
 
   .hero_content img {
-    height: 300px;
+    height: 500px;
   }
 
   .content {
@@ -475,7 +475,7 @@ footer{
   }
   .content button{
     display: block;
-    margin-top: 5%;
+    margin-top: 2%;
     font-weight: bolder;
   }
   button{
@@ -577,6 +577,11 @@ footer{
   
     .content p {
       font-size: 14px;
+    }
+    .content button{
+      display: block;
+      margin-top: 2%;
+      font-weight: bolder;
     }
   
     .about{
