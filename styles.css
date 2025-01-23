@@ -667,3 +667,9 @@ footer{
         border-radius: 50%;
       }
   }
+
+  @media (max-width: 360px){
+    .right {
+      height: auto;
+    }
+  }

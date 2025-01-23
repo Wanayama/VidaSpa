@@ -403,5 +403,9 @@ button:hover{
           height: 70px;
           border-radius: 50%;
         }
+        .facials_details{
+          padding: 100px 3% 30px 3%;
+          gap: 2rem;
+      }
     }
   
