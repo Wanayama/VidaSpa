@@ -169,7 +169,6 @@ button:hover{
 
 .facial_card{
     display: flex;
-    flex-wrap: wrap;
     background: rgba(128, 128, 128, 0.297);
     min-height: 300px;
     border-radius: 5px;
@@ -325,9 +324,13 @@ button:hover{
     button{
       display: none;
     }
-  
 
- 
+    .facial_card{
+      flex-direction: column;
+    }
+    .facial_card img{
+      width: 100%;
+    }
     
   }
   

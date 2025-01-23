@@ -170,6 +170,9 @@ button:hover{
 .fibro-desc{
     display: flex;
 }
+.descL{
+  width: 50%;
+}
 .descL h2{
     font-size: 25px;
     font-weight: 700;
@@ -349,6 +352,7 @@ button:hover{
         max-height: fit-content;
         margin-top: 15%;
         margin-bottom: 10%;
+        width: 100%;
     }
     .descL h2{
         font-size: 25px;
