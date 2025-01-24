@@ -366,6 +366,12 @@ button:hover{
         font-family: 'comfortaa';
     }
 
+    .comp-img img{
+      width: 100%;
+      height: 300px;
+      margin-bottom: 10%;
+  }
+
  
     
   }

@@ -169,7 +169,6 @@ button:hover{
 
 .facial_card{
     display: flex;
-    flex-wrap: wrap;
     background: rgba(128, 128, 128, 0.297);
     min-height: 300px;
     border-radius: 5px;
@@ -194,11 +193,6 @@ button:hover{
   line-height: 1.5;
   font-size: 12px;
   margin-bottom: 5%;
-}
-.descR p span{
-    font-size: 14px;
-    font-weight: 600;
-    padding: 10px 0 5px 8px;
 }
 .descL p{
   font-size: 12px;
@@ -330,9 +324,13 @@ button:hover{
     button{
       display: none;
     }
-  
 
- 
+    .facial_card{
+      flex-direction: column;
+    }
+    .facial_card img{
+      width: 100%;
+    }
     
   }
   
@@ -373,5 +371,10 @@ button:hover{
           height: 70px;
           border-radius: 50%;
         }
+        .facials_details{
+          padding: 100px 3% 30px 3%;
+          gap: 2rem;
+      }
     }
+
   
