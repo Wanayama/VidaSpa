@@ -341,7 +341,7 @@ button:hover{
     
       .hamburger {
         display: block;
-        margin-left: 70%;
+        margin-left: 100%;
         cursor: pointer;
         font-size: 25px;
       }
@@ -374,6 +374,22 @@ button:hover{
         .facials_details{
           padding: 100px 3% 30px 3%;
           gap: 2rem;
+      }
+    }
+
+    @media (max-width: 380px){
+      .hamburger {
+        margin-left: 70%;
+      }
+      .hero_content img {
+        height: auto;
+      }
+      .home{
+        height: 20%;
+      }
+  
+      .about{
+        height: auto;
       }
     }
 
