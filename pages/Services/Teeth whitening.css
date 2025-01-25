@@ -341,7 +341,7 @@ button:hover{
     
       .hamburger {
         display: block;
-        margin-left: 100%;
+        margin-left: 70%;
         cursor: pointer;
         font-size: 25px;
       }
@@ -379,7 +379,7 @@ button:hover{
 
     @media (max-width: 380px){
       .hamburger {
-        margin-left: 70%;
+        margin-left: 60%;
       }
     }
 
