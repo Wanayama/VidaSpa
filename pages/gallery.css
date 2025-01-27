@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
-
 
 * {
   margin: 0;
@@ -16,15 +14,22 @@ html, body {
   font-size: 10px;
   scroll-behavior: smooth;
   overflow-x: hidden;
-  background: rgba(175, 155, 133, 0.089);
+  background: var(--colorbody);
 }
 section {
   min-height: 100vh;
 }
 
-.head {
-  font-size: 2rem;
-  font-weight: 900;
+:root{
+  --colorfooter: #936045;
+  --colorHeader: #c6975d;
+  --colorbody: rgb(213, 220, 224);
+}
+
+.head h1{
+  font-size: 3rem;
+  font-weight: bold;
+  font-family: 'gotham';
   text-align: center;
   color: #0f0f0f;
   justify-content: center;
@@ -35,7 +40,7 @@ section {
 .topbar {
   display: flex;
   position: absolute;
-  background-color: rgb(175, 155, 133);
+  background-color: var(--colorHeader);
   width: 100%;
   height: 50px;
   align-items: center;
@@ -59,6 +64,7 @@ section {
   padding-right: 30px;
   padding-left: 5px;
   font-size: 14px;
+  font-family: 'gotham';
 }
 .topright {
   padding: 0 40px 0 0;
@@ -110,6 +116,7 @@ a {
   color: #0f0f0f;
   text-decoration: none;
   font-size: 20px;
+  font-family: 'gotham';
 }
 
 .logo {
@@ -130,7 +137,8 @@ button{
   background: rgb(175, 155, 133);
   padding: 10px 15px 10px 15px;
   border-radius: 10px;
-  font-weight: bolder;
+  font-family: 'gotham';
+  font-weight: bold;
   cursor: pointer;
   transition: .6s ease;
 }
@@ -167,7 +175,7 @@ button:hover{
   footer{
       width: 100%;
       height: 150px;
-      background: #0f0f0f;
+      background: var(--colorfooter);
       color: #f1efef;
       padding: 20px 10% 20px 10%;
   }
@@ -183,15 +191,18 @@ button:hover{
     }
   .location h2{
       font-size: 20px;
-      font-weight: 900;
+      font-weight: bold;
+      font-family: 'gotham';
       padding-bottom: 20px;
   }
   .location p{
       line-height: 1.5;
       font-size: 12px;
+      font-family: 'gotham';
   }
   .footer_content p{
       font-size: 16px;
+      font-family: 'gotham';
   }
   
   /* Responsive Design */

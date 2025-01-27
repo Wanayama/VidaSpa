@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
-
 
 * {
   margin: 0;
@@ -16,10 +14,17 @@ html, body {
   font-size: 10px;
   scroll-behavior: smooth;
   overflow-x: hidden;
-  background: rgba(255, 255, 255, 0.089);
+  background: var(--colorSec);
 }
 section {
   min-height: 100vh;
+}
+
+:root{
+  --colorfooter: #936045;
+  --colorHeader: #c6975d;
+  --colorbody: rgb(213, 220, 224);
+  --colorSec: white;
 }
 
 .head {
@@ -41,15 +46,17 @@ section {
     padding-bottom: 20px;
     font-weight: 800;
     font-size: 60px;
-    font-family: 'Times New Roman', Times, serif;
-}
+    font-family: 'gotham';
+  }
 .head p{
     position: relative;
     color: antiquewhite;
     font-size: 16px;
+    font-family: 'gotham';
 }
 .head p span{
     color: rgb(161, 153, 153);
+    font-family: 'gotham';
 }
 
 
@@ -57,7 +64,7 @@ section {
 .topbar {
   display: flex;
   position: absolute;
-  background-color: rgb(175, 155, 133);
+  background-color: var(--colorHeader);
   width: 100%;
   height: 50px;
   align-items: center;
@@ -81,6 +88,7 @@ section {
   padding-right: 30px;
   padding-left: 5px;
   font-size: 14px;
+  font-family: 'gotham';
 }
 .topright {
   padding: 0 40px 0 0;
@@ -132,6 +140,7 @@ a {
   color: #0f0f0f;
   text-decoration: none;
   font-size: 20px;
+  font-family: 'gotham';
 }
 
 .logo {
@@ -152,8 +161,9 @@ button{
   background: rgb(175, 155, 133);
   padding: 10px 15px 10px 15px;
   border-radius: 10px;
-  font-weight: bolder;
+  font-weight: bold;
   cursor: pointer;
+  font-family: 'gotham';
   transition: .6s ease;
 }
 button:hover{
@@ -188,12 +198,14 @@ button:hover{
     font-weight: 800;
     text-align: center;
     color: rgba(128, 128, 128, 0.63);
+    font-family: 'gotham';
 }
 .visuals-content p{
     line-height: 1.5;
     text-align: left;
     font-size: 16px;
     margin-bottom: 3%;
+    font-family: 'gotham';
 }
 .price{
     width: 90%;
@@ -201,6 +213,26 @@ button:hover{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     grid-gap: 10px;
+}
+.price-card{
+  background-color: var(--colorbody);
+  border-radius: 10px;
+  padding: 10px 5%;
+}
+.price-card h2{
+  font-family: 'gotham';
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 2%;
+}
+.price-card p{
+  font-size: 14px;
+  font-family: 'gotham';
+}
+.price-card p span{
+  font-family: 'gotham';
+  margin-left: 5%;
+
 }
 .price img{
     width: 260px;
@@ -212,7 +244,7 @@ button:hover{
   footer{
       width: 100%;
       height: 150px;
-      background: #0f0f0f;
+      background: var(--colorfooter);
       color: #f1efef;
       padding: 20px 10% 20px 10%;
   }
@@ -230,13 +262,16 @@ button:hover{
       font-size: 20px;
       font-weight: 900;
       padding-bottom: 20px;
+      font-family: 'gotham';
   }
   .location p{
       line-height: 1.5;
       font-size: 12px;
+      font-family: 'gotham';
   }
   .footer_content p{
       font-size: 16px;
+      font-family: 'gotham';
   }
   
   /* Responsive Design */
@@ -286,7 +321,7 @@ button:hover{
       padding-bottom: 20px;
       font-weight: 800;
       font-size: 40px;
-      font-family: 'Times New Roman', Times, serif;
+      font-family: 'gotham';
   }
   
     .nav_menu{
