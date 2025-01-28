@@ -243,6 +243,7 @@ button:hover{
     header{
       max-height: 120px;
       margin-top: -5%;
+      background-color: var(--colorHeader);
     }
   
     .nav_menu{

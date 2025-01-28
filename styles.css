@@ -228,7 +228,7 @@ button:hover{
 }
 .left img{
   width: 100%;
-  max-height: 500px;
+  min-height: 500px;
 }
 .head h1{
   font-size: 3rem;
@@ -490,6 +490,7 @@ footer{
   header{
     max-height: 120px;
     margin-top: -5%;
+    background-color: var(--colorHeader);
   }
 
   .nav_menu{
@@ -561,7 +562,7 @@ footer{
     background-color: aliceblue;
   }
   .left img{
-    height: 300px;
+    height: auto;
     width: 100%;
   }
 
@@ -746,7 +747,7 @@ footer{
       margin-left: 60%;
     }
     .hero_content img {
-      height: auto;
+      height: 500px;
     }
     .home{
       height: 20%;
