@@ -299,6 +299,9 @@ button:hover{
     .column{
       gap: 10px;
     }
+    .gallery{
+      padding: 50px 2%;
+    }
   
   }
   
