@@ -149,27 +149,31 @@ button:hover{
 
 /* Gallery section */
 
-  .container{
-    width: 100%;
+  .gallery{
+    max-width: 1224px;
+    width: 90%;
     min-height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    margin: auto;
     padding: 50px 8%;
   }
-  .gallery-container{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    grid-gap: 30px;
+  .container{
+    display: flex;
+    gap: 20px;
   }
-  .gallery-container img{
+  .column{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .photo img{
     width: 100%;
-    border-radius: 10px;
-    transition: .8s ease;
+    height: 100%;
+    border-radius: 5px;
+    object-fit: cover;
   }
-  .gallery-container img:hover{
-    transform: scale(1.05);
-  }
+
+
+
   
   /* Footer section */
   footer{
@@ -288,6 +292,13 @@ button:hover{
     button{
       display: none;
     }
+
+    .container{
+      gap: 10px;
+    }
+    .column{
+      gap: 10px;
+    }
   
   }
   
@@ -327,6 +338,13 @@ button:hover{
           width: 80px;
           height: 70px;
           border-radius: 50%;
+        }
+
+        .container{
+          gap: 5px;
+        }
+        .column{
+          gap: 5px;
         }
     }
 
