@@ -151,7 +151,7 @@ button:hover{
 
   .gallery{
     max-width: 1224px;
-    width: 90%;
+    width: 100%;
     min-height: 100vh;
     margin: auto;
     padding: 50px 8%;
